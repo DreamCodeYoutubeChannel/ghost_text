@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	background: #000;
+}
+
+.container {
+	margin-top: 350px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+h3 {
+	color: #fff;
+	font-size: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	display: flex;
+	margin: 10;
+}
+
+h3 span {
+	transition: 1s;
+}
+
+h3:hover span {
+	filter: blur(15px);
+	opacity: 0;
+	transform: scale(1.5);
+}
+
+h3 span:nth-child(10n+1) {
+	transition-delay: 0.8s;
+}
+
+h3 span:nth-child(10n+2) {
+	transition-delay: 0.7s;
+}
+
+h3 span:nth-child(10n+3) {
+	transition-delay: 0.6s;
+}
+
+h3 span:nth-child(10n+4) {
+	transition-delay: 0.5s;
+}
+
+h3 span:nth-child(10n+5) {
+	transition-delay: 0.4s;
+}
+
+h3 span:nth-child(10n+6) {
+	transition-delay: 0.3s;
+}
+
+h3 span:nth-child(10n+7) {
+	transition-delay: 0.2s;
+}
+
+h3 span:nth-child(10n+8) {
+	transition-delay: 0.1s;
+}
